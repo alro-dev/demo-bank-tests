@@ -8,10 +8,12 @@ export const validUser = {
   name: 'Jan Demobankowy',
 };
 
+//console.log('Loaded test data:', validUser);
+
 // ❌ Invalid user (too short credentials)
 export const invalidUser = {
-  username: 'short',     // less than 8 characters
-  password: '123',       // less than 8 characters
+  username: 'short', // less than 8 characters
+  password: '123', // less than 8 characters
 };
 
 // 🔐 Locked user (after 3 failed attempts)
@@ -36,4 +38,3 @@ export const invalidTransfer = {
   amount: '-50',
   title: '',
 };
-
